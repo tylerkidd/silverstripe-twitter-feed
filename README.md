@@ -34,4 +34,6 @@ TwitterFeedExtension::$titter_oauth_token_secret = ''; //required
 TwitterFeedExtension::$twitter_user = ''; //optional
 ```
 
+To obtain Twitter consumer keys and oauth tokens visit <https://dev.twitter.com/apps>.
+
 Then just add $TwitterFeed anywhere you want.
