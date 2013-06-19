@@ -28,8 +28,8 @@ TwitterFeedExtension::$twitter_cache_id = ''; //optional - required if $twitter_
 
 TwitterFeedExtension::$twitter_consumer_key = ''; //required
 TwitterFeedExtension::$twitter_consumer_secret = ''; //required
-TwitterFeedExtension::$titter_oauth_token = ''; //required
-TwitterFeedExtension::$titter_oauth_token_secret = ''; //required
+TwitterFeedExtension::$twitter_oauth_token = ''; //required
+TwitterFeedExtension::$twitter_oauth_token_secret = ''; //required
 
 TwitterFeedExtension::$twitter_user = ''; //optional
 ```
