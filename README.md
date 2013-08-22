@@ -4,9 +4,13 @@ SilverStripe Twitter Feed
 ## Requirements
 Silverstripe 3.0+
 
-## Maintainer
-Tyler Kidd - tyler@adaircreative.com
+## Maintainer (of this fork)
+francisco arenas - fa@dospuntocero.cl
 Pull requests welcome.
+
+## Whats new?
+More flexibility on templating. you can see it working on [fortispartners.com](http://fortispartners.com "fortis & partners website")
+
 
 ## Installation
 Download this module into a folder in the root of your project. Does not require /dev/build.
