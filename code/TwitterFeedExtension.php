@@ -37,8 +37,8 @@ class TwitterFeedExtension extends SiteTreeExtension {
 			$connection = new TwitterOAuth(
 				self::$twitter_consumer_key,
 				self::$twitter_consumer_secret,
-				self::$titter_oauth_token,
-				self::$titter_oauth_token_secret
+				self::$twitter_oauth_token,
+				self::$twitter_oauth_token_secret
 			);
 			
 			$config = self::$twitter_config;
