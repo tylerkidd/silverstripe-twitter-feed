@@ -15,8 +15,8 @@ class TwitterFeedExtension extends SiteTreeExtension {
 
 	public static $twitter_consumer_key;
 	public static $twitter_consumer_secret;
-	public static $titter_oauth_token;
-	public static $titter_oauth_token_secret;
+	public static $twitter_oauth_token;
+	public static $twitter_oauth_token_secret;
 	
 	public static $twitter_user;
 	
