@@ -27,10 +27,12 @@ class TwitterFeedExtension extends SiteTreeExtension {
 	
 	public function TwitterFeed($limit = 5){
 	
-		$cache = SS_Cache::factory(self::$twitter_cache_key);
-		$cacheID = self::$twitter_cache_id;
+		if(self::$twitter_cache_enabled){
+			$cache = SS_Cache::factory(self::$twitter_cache_key);
+			$cacheID = self::$twitter_cache_id;
+		}
 
-		if(!self::$twitter_cache_enabled || !$output = unserialize($cache->load($cacheID))){
+		if(!self::$twitter_cache_enabled || (isset($cache) && (!$output = unserialize($cache->load($cacheID))))){
 	
 			require_once(Director::baseFolder().'/'.TWITTER_FEED_BASE.'/thirdparty/twitteroauth/twitteroauth.php');
 
